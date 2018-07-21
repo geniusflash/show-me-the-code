@@ -1,5 +1,7 @@
 import mysql.connector
 
+__author__ = 'geniusflash'
+
 def activationcode2sql():
     # 打开数据库链接
     con=mysql.connector.connect(host='localhost',port='3306',user='root',password='123456',database='test')
